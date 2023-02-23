@@ -25,9 +25,124 @@
      </div>
    </div>
  </div>
+  
+  {{-- Section Popular BG sites--}}
+  <div class="max-w-6xl m-auto mt-16 p-6">
+    {{--    Title--}}
+    <div class="mb-12">
+      <h1 class="mb-2 font-bold text-gray-800 text-2xl lg:text-3xl">
+        Популярни дестинации
+      </h1>
+      <p class="max-w-3xl text-gray-600">
+        Най-хубавото място у нас е всяко кътче, което е останало в сърцето ти!
+        Вижте някои от най-красивите места в България, които всеки трябва да посети.
+      </p>
+    </div>
+    {{--    Packages cards--}}
+    <div class="flex space-x-4">
+      {{-- Image    Card--}}
+      <div
+          class="relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+        <img
+            src="{{url('img/baba-vida.jpg')}}"
+            class="max-w-xs" />
+        <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+            style="background-color: rgba(0, 0, 0, 0.4)">
+          <div class="flex h-full items-end justify-center">
+            <div class="py-4 px-3">
+              <p class="text-white text-lg font-bold opacity-100">
+                Баба Вида - стражът на Северозапада
+              </p>
+              <p class="text-white font-normal opacity-100">
+                гр. Видин
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#!">
+          <div
+              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden hover:bg-neutral-800 bg-fixed hover:opacity-60"></div>
+        </a>
+      </div>
+      <div
+          class="relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+        <img
+            src="{{url('img/carevec.jpg')}}"
+            class="max-w-xs" />
+        <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+            style="background-color: rgba(0, 0, 0, 0.4)">
+          <div class="flex h-full items-end justify-center">
+            <div class="py-4 px-3">
+              <p class="text-white text-lg font-bold opacity-100">
+                Архитектурно - музеен резерват "Царевец"
+              </p>
+              <p class="text-white font-normal opacity-100">
+                гр. В.Търново
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#!">
+          <div
+              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden hover:bg-neutral-800 bg-fixed hover:opacity-60"></div>
+        </a>
+      </div>
+      <div
+          class="relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+        <img
+            src="{{url('img/bscali.jpg')}}"
+            class="max-w-xs" />
+        <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+            style="background-color: rgba(0, 0, 0, 0.4)">
+          <div class="flex h-full items-end justify-center">
+            <div class="py-4 px-3">
+              <p class="text-white text-lg font-bold opacity-100">
+                Белоградчишките скали - един от уникалните природни феномени
+              </p>
+              <p class="text-white font-normal opacity-100">
+                гр. Белоградчик
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#!">
+          <div
+              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden hover:bg-neutral-800 bg-fixed hover:opacity-60"></div>
+        </a>
+      </div>
+      <div
+          class="relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+        <img
+            src="{{url('img/rm.jpg')}}"
+            class="max-w-xs" />
+        <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+            style="background-color: rgba(0, 0, 0, 0.4)">
+          <div class="flex h-full items-end justify-center">
+            <div class="py-4 px-3">
+              <p class="text-white text-lg font-bold opacity-100">
+                Рилски манастир „Свети Иван Рилски“
+              </p>
+              <p class="text-white font-normal opacity-100">
+                Рила
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#!">
+          <div
+              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden hover:bg-neutral-800 bg-fixed hover:opacity-60"></div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
 {{-- Section Popular Tour Package--}}
   <div class="max-w-6xl m-auto mt-16 p-6">
-{{--    Title--}}
+    {{--    Title--}}
     <div class="mb-12">
       <h1 class="mb-2 font-bold text-gray-800 text-2xl lg:text-3xl">
         Популярни туристически пакети
@@ -38,13 +153,13 @@
         Sed pellentesque at nunc eget consectetur.
       </p>
     </div>
-{{--    Packages cards--}}
+    {{--    Packages cards--}}
     <div class="flex space-x-4">
 {{--      Card--}}
       <div class="flex justify-center">
         <div
             class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-          <a href="#!">
+          <a href="#!" class="">
             <img
                 class="rounded-t-lg"
                 src="{{url('img/baba-vida.jpg')}}"
@@ -173,4 +288,5 @@
 
     </div>
   </div>
+
 </x-app-layout>

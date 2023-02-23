@@ -154,7 +154,7 @@
       </p>
     </div>
     {{--    Packages cards--}}
-    <div class="block block my-2 md:my-0 md:flex md:space-x-4">
+    <div class="block md:my-0 md:flex md:space-x-4 space-y-2">
 {{--      Card--}}
       <div class="flex justify-center">
         <div

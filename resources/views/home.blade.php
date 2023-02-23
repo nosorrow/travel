@@ -183,15 +183,15 @@
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </p>
-              <div class="flex justify-between items-center">
+              <div class="flex flex-col md:flex-row justify-between items-center">
                 <button
                     type="button"
-                    class="button-info"
+                    class="button-info order-last md:order-first"
                     data-te-ripple-init
                     data-te-ripple-color="light">
                   резервирай
                 </button>
-                <div class="text-gray-800">
+                <div class="text-gray-800 mb-6 md:mb-0">
                   <span class="font-bold">Топ цена:</span><span class="text-red-500 text-2xl"> 55.90лв</span>
                 </div>
               </div>
@@ -226,15 +226,15 @@
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </p>
-              <div class="flex justify-between items-center">
+              <div class="flex flex-col md:flex-row justify-between items-center">
                 <button
                     type="button"
-                    class="button-info"
+                    class="button-info order-last md:order-first"
                     data-te-ripple-init
                     data-te-ripple-color="light">
                   резервирай
                 </button>
-                <div class="text-gray-800">
+                <div class="text-gray-800 mb-6 md:mb-0">
                   <span class="font-bold">Топ цена:</span><span class="text-red-500 text-2xl"> 69.90лв</span>
                 </div>
               </div>
@@ -269,15 +269,15 @@
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </p>
-              <div class="flex justify-between items-center">
+              <div class="flex flex-col md:flex-row justify-between items-center">
                 <button
                     type="button"
-                    class="button-info"
+                    class="button-info order-last md:order-first"
                     data-te-ripple-init
                     data-te-ripple-color="light">
                   резервирай
                 </button>
-                <div class="text-gray-800">
+                <div class="text-gray-800 mb-6 md:mb-0">
                   <span class="font-bold">Топ цена:</span><span class="text-red-500 text-2xl"> 60.90лв</span>
                 </div>
               </div>

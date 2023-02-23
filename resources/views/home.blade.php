@@ -39,7 +39,7 @@
       </p>
     </div>
     {{--    Packages cards--}}
-    <div class="flex space-x-4">
+    <div class="block my-2 md:my-0 md:flex md:space-x-4">
       {{-- Image    Card--}}
       <div
           class="relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat">
@@ -154,7 +154,7 @@
       </p>
     </div>
     {{--    Packages cards--}}
-    <div class="flex space-x-4">
+    <div class="block block my-2 md:my-0 md:flex md:space-x-4">
 {{--      Card--}}
       <div class="flex justify-center">
         <div
@@ -285,7 +285,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 

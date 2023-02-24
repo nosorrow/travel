@@ -30,7 +30,7 @@
   </style>
   <x-head image='../img/breadcrumb-bg.png' title="Баба Вида" link="Баба Вида"/>
   {{--  Container--}}
-  <div class="max-w-3xl mx-auto mb-32">
+  <div class="max-w-3xl mx-auto mb-32 px-4">
     {{--  Content--}}
     <div>
       <img src="{{url('img/baba-vida-1.jpg')}}" class="w-100 mb-2 sm:mb-6" alt="bv">

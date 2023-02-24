@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <a href="#!">
+        <a href="{{route('details')}}">
           <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden hover:bg-neutral-800 bg-fixed hover:opacity-60"></div>
         </a>

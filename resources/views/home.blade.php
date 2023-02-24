@@ -1,10 +1,14 @@
 <x-app-layout pagetitle="Tour agency" class="bg-slate-50">
 {{--  Hero section--}}
- <div class="w-100 lg:flex">
-   <div class="lg:w-7/12">
-     <img src="{{url('img/heroimage.jpg')}}" alt="heroleft" height="600">
+ <div class="w-100 lg:flex min-h-[500px]">
+   <div class="lg:w-7/12"
+        style="background-size: cover;
+        background: url('../img/heroimage.jpg') no-repeat;
+        "
+   >
+{{--     <img src="{{url('img/heroimage.jpg')}}" alt="heroleft" class="h-100">--}}
    </div>
-   <div class="lg:w-5/12 bg-slate-700">
+   <div class="lg:w-5/12 bg-slate-700 flex flex-col justify-center items-center">
      <div class="p-8 mb-6">
        <h1 class="mb-6 text-left text-blue-300 text-2xl lg:text-4xl font-bold">
          Посетете българските туристически забележителности
@@ -154,7 +158,7 @@
       </p>
     </div>
     {{--    Packages cards--}}
-    <div class="block md:my-0 md:flex md:space-x-4 space-y-2">
+    <div class="block md:my-0 md:flex md:space-x-4 space-y-2 sm:space-y-0">
 {{--      Card--}}
       <div class="flex justify-center">
         <div

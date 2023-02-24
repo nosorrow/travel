@@ -30,8 +30,8 @@
   <!-- Page Content -->
   <main>
     {{ $slot }}
-    <x-footer />
   </main>
 </div>
+<x-footer />
 </body>
 </html>
